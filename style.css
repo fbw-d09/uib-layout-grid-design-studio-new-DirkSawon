@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, 'Maven Pro' sans-serif;
+    font-size: 16px;
+}
+
+.container
+{
+    /* border: 10px solid red; */
+    display: grid;
+    padding: 10px;
+    height:90vh;
+    width:90vw;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.box
+{
+    /* border: 5px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-size:contain;
+}
+
+.header
+{
+    /* border: 5px solid orange; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-rows: 1fr; */
+    width:90vw;
+    padding: 10px;
+    gap:10px;
+}
+
+
+.box-0
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box-2, .box-5
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.box-3, .box-4
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+div
+{
+    display:grid;
+    gap:10px;
+}
+
+.logo
+{
+    font-weight:bolder;
+}
+
+.menu
+{
+    font-weight: bold;
+}
+/* img
+{
+    width:100px;
+    height:100px;
+    background-size: ;
+} */
+
+.item-1
+{
+    background-image: url(./assets/item-one.jpeg);
+    background-size:cover;
+}
+
+.item-2
+{
+    background-image: url(./assets/item-two.jpeg);
+    background-size:cover;
+}
+
+.item-3
+{
+    background-image: url(./assets/item-three.jpeg);
+    background-size:cover;
+}
+
+.item-4
+{
+    background-image: url(./assets/item-four.jpeg);
+    background-size:cover;
+}
+
+.item-5
+{
+    background-image: url(./assets/item-five.jpeg);
+    background-size:cover;
+}
+
+.item-6
+{
+    background-image: url(./assets/item-six.jpeg);
+    background-size:cover;
+}
+
+.item-7
+{
+    background-image: url(./assets/item-seven.jpeg);
+    background-size:cover;
+}
+
+.item-8
+{
+    background-image: url(./assets/item-eight.jpeg);
+    background-size:cover;
+}
+
+.item-9
+{
+    background-image: url(./assets/item-nine.jpeg);
+    background-size:cover;
+}
