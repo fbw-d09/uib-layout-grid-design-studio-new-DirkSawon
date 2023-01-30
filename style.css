@@ -84,9 +84,9 @@ div
 .design
 {
     color: tomato;
-    font-size: 60px;
-    /* grid-row: 4 / span 1; */
-    /* grid-column: 1 / span 3; */
+    /* font-size: 180px;
+    grid-row: 2 / span 3;
+    grid-column: 2 / span 1; */
 }
 
 .item-1
