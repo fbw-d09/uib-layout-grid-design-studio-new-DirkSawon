@@ -95,24 +95,28 @@ div
 {
     background-image: url(./assets/item-one.jpeg);
     background-size:cover;
+    background-position: center;
 }
 
 .item-2
 {
     background-image: url(./assets/item-two.jpeg);
     background-size:cover;
+    background-position: center;
 }
 
 .item-3
 {
     background-image: url(./assets/item-three.jpeg);
     background-size:cover;
+    background-position: center;
 }
 
 .item-4
 {
     background-image: url(./assets/item-four.jpeg);
     background-size:cover;
+    background-position: center;
 }
 
 .item-5
@@ -123,6 +127,7 @@ div
     grid-row-end:2;
     background-image: url(./assets/item-five.jpeg);
     background-size:cover;
+    background-position: center;
 }
 
 .item-6
@@ -133,12 +138,14 @@ div
     grid-row-end:2;
     background-image: url(./assets/item-six.jpeg);
     background-size:cover;
+    background-position: center;
 }
 
 .item-7
 {
     background-image: url(./assets/item-seven.jpeg);
     background-size:cover;
+    background-position: center;
 }
 
 .item-8
@@ -152,4 +159,5 @@ div
 {
     background-image: url(./assets/item-nine.jpeg);
     background-size:cover;
+    background-position: center;
 }
