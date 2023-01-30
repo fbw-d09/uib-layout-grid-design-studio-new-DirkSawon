@@ -81,6 +81,14 @@ div
     font-style: italic;
 }
 
+.design
+{
+    color: tomato;
+    font-size: 60px;
+    /* grid-row: 4 / span 1; */
+    /* grid-column: 1 / span 3; */
+}
+
 .item-1
 {
     background-image: url(./assets/item-one.jpeg);
