@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+}
+
+.container
+{
+    /* border: 10px solid red; */
+    display: grid;
+    padding: 10px;
+    height:100vh;
+    width:100vw;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 20px 1fr 1fr 20px;
+}
+
+.box
+{
+    /* border: 5px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-size:contain;
+}
+
+.box-6, .box-7
+{
+    /* border: 5px solid black; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.box-1, .box-3, .box-10, .box-12
+{
+    /* border: 5px solid black; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.box-2, .box-11
+{
+    /* border:5px solid black; */
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.box-5, .box-8
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+div
+{
+    /* border: 1px solid red; */
+    display:grid;
+    gap:10px;
+}
+
+.box-1, .box-10
+{
+    font-size: 20px;
+    font-weight:bolder;
+}
+
+.box-3
+{
+    font-weight: bold;
+}
+
+.box-11
+{
+    font-style: italic;
+}
+
+.design
+{   
+    /* border: 1px solid black; */
+    color: tomato;
+    font-size: 175px;
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 3;
+    z-index:100;
+}
+
+.item-1
+{
+    background-image: url(./assets/item-one.jpeg);
+    background-size:cover;
+    background-position: center;
+}
+
+.item-2
+{
+    background-image: url(./assets/item-two.jpeg);
+    background-size:cover;
+    background-position: center;
+}
+
+.item-3
+{
+    background-image: url(./assets/item-three.jpeg);
+    background-size:cover;
+    background-position: center;
+}
+
+.item-4
+{
+    background-image: url(./assets/item-four.jpeg);
+    background-size:cover;
+    background-position: center;
+}
+
+.item-5
+{
+    grid-column-start:3;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:2;
+    background-image: url(./assets/item-five.jpeg);
+    background-size:cover;
+    background-position: center;
+}
+
+.item-6
+{
+    grid-column-start:1;
+    grid-column-end:1;
+    grid-row-start:2;
+    grid-row-end:2;
+    background-image: url(./assets/item-six.jpeg);
+    background-size:cover;
+    background-position: center;
+}
+
+.item-7
+{
+    background-image: url(./assets/item-seven.jpeg);
+    background-size:cover;
+    background-position: center;
+}
+
+.item-8
+{
+    background-image: url(./assets/item-eight.jpeg);
+    background-size:cover;
+    background-position: center;
+}
+
+.item-9
+{
+    background-image: url(./assets/item-nine.jpeg);
+    background-size:cover;
+    background-position: center;
+}
